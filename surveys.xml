@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/surveyTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="설문조사"
+        android:textSize="30sp"
+        android:layout_marginBottom="30dp"/>
+
+    <CheckBox
+        android:id="@+id/option1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="옵션 1"
+        android:textSize="30sp"
+        android:layout_marginBottom="30dp"/>
+
+    <CheckBox
+        android:id="@+id/option2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="옵션 2"
+        android:textSize="30sp"
+        android:layout_marginBottom="30dp"/>
+
+    <CheckBox
+        android:id="@+id/option3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="옵션 3"
+        android:textSize="30sp"
+        android:layout_marginBottom="30dp"/>
+
+
+
+    <!-- 설문조사 제출 버튼 -->
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="설문조사 제출"
+        android:textSize="20sp"
+        android:layout_marginBottom="30dp"/>
+</LinearLayout>
+
+
+
+
+
+
+
+
+
+
